@@ -29,6 +29,9 @@
 					},
 					{
 						"name": "domain"
+					},
+					{
+						"name": "additional_column"
 					}
 				],
 				"primaryKey": "concept"
@@ -158,7 +161,7 @@
 						"name": "company_size"
 					},
 					{
-						"name": "full_name"
+						"name": "full_name_changed"
 					},
 					{
 						"name": "is--company_size"
@@ -180,6 +183,9 @@
 					},
 					{
 						"name": "name"
+					},
+					{
+						"name": "additional_column"
 					}
 				],
 				"primaryKey": "english_speaking"
@@ -245,7 +251,7 @@
 						"name": "region"
 					},
 					{
-						"name": "full_name"
+						"name": "full_name_changed"
 					}
 				],
 				"primaryKey": "region"
