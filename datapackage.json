@@ -38,8 +38,8 @@
 			}
 		},
 		{
-			"path": "ddf--datapoints--company_size--by--company--anno.csv",
-			"name": "ddf--datapoints--company_size--by--company--anno",
+			"path": "ddf--datapoints--company_scale--by--company--anno.csv",
+			"name": "ddf--datapoints--company_scale--by--company--anno",
 			"schema": {
 				"fields": [
 					{
@@ -49,7 +49,7 @@
 						"name": "anno"
 					},
 					{
-						"name": "company_size"
+						"name": "company_scale"
 					}
 				],
 				"primaryKey": [
@@ -126,48 +126,21 @@
 			}
 		},
 		{
-			"path": "ddf--datapoints--num_users--by--company--project.csv",
-			"name": "ddf--datapoints--num_users--by--company--project",
+			"path": "ddf--entities--company--company_scale.csv",
+			"name": "ddf--entities--company--company_scale",
 			"schema": {
 				"fields": [
 					{
-						"name": "company"
-					},
-					{
-						"name": "project"
-					},
-					{
-						"name": "longitude"
-					},
-					{
-						"name": "latitude"
-					},
-					{
-						"name": "num_users"
-					}
-				],
-				"primaryKey": [
-					"company",
-					"project"
-				]
-			}
-		},
-		{
-			"path": "ddf--entities--company--company_size.csv",
-			"name": "ddf--entities--company--company_size",
-			"schema": {
-				"fields": [
-					{
-						"name": "company_size"
+						"name": "company_scale"
 					},
 					{
 						"name": "full_name_changed"
 					},
 					{
-						"name": "is--company_size"
+						"name": "is--company_scale"
 					}
 				],
-				"primaryKey": "company_size"
+				"primaryKey": "company_scale"
 			}
 		},
 		{
@@ -189,21 +162,6 @@
 					}
 				],
 				"primaryKey": "english_speaking"
-			}
-		},
-		{
-			"path": "ddf--entities--company--foundation.csv",
-			"name": "ddf--entities--company--foundation",
-			"schema": {
-				"fields": [
-					{
-						"name": "foundation"
-					},
-					{
-						"name": "is--foundation"
-					}
-				],
-				"primaryKey": "foundation"
 			}
 		},
 		{
