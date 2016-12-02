@@ -70,7 +70,7 @@
 						"name": "anno"
 					},
 					{
-						"name": "lines_of_code"
+						"name": "lines_of_code_changed"
 					}
 				],
 				"primaryKey": [
@@ -91,16 +91,16 @@
 						"name": "project"
 					},
 					{
-						"name": "anno"
+						"name": "lines_of_code_changed"
 					},
 					{
-						"name": "lines_of_code"
+						"name": "lines_of_code_new"
 					}
 				],
 				"primaryKey": [
 					"company",
 					"project",
-					"anno"
+					"lines_of_code_changed"
 				]
 			}
 		},
@@ -116,7 +116,7 @@
 						"name": "project"
 					},
 					{
-						"name": "lines_of_code"
+						"name": "lines_of_code_changed"
 					}
 				],
 				"primaryKey": [
