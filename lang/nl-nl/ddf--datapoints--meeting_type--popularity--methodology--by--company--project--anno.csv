@@ -1,9 +1,9 @@
-company,project,anno,meeting_type,popularity,methodology
-mcrsft,xbox,2016,brainstorm,erg populair,worsteling om de bal
-gap,vizabi,2015,regelmatig,populair,kanban
-gap,vizabi,2016,spel,niet zo populair,mager
-gap,ws,2015,spel,niet zo populair,kanban
-gap,ws,2016,regelmatig,erg populair,worsteling om de bal
-valor,ws,2015,regelmatig,erg populair,mager
-valor,ws,2016,brainstorm,populair,worsteling om de bal
-zsoft,ws,2016,regelmatig,niet zo populair,worsteling om de bal
+company,project,anno,meeting_type,methodology,popularity
+mcrsft,xbox,2016,brainstorm,worsteling om de bal,erg populair
+gap,vizabi,2015,regelmatig,kanban,populair
+gap,vizabi,2016,spel,mager,lage populariteit
+gap,ws,2015,spel,kanban,lage populariteit
+gap,ws,2016,regelmatig,worsteling om de bal,erg populair
+valor,ws,2015,regelmatig,mager,erg populair
+valor,ws,2016,brainstorm,worsteling om de bal,populair
+zsoft,ws,2016,regelmatig,worsteling om de bal,lage populariteit
