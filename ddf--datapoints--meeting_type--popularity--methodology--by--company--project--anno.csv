@@ -1,0 +1,9 @@
+company,project,anno,meeting_type,popularity,methodology
+mcrsft,xbox,2016,brainstorm,very popular,scrum
+gap,vizabi,2015,regular,popular,kanban
+gap,vizabi,2016,game,not so popular,lean
+gap,ws,2015,game,not so popular,kanban
+gap,ws,2016,regular,very popular,scrum
+valor,ws,2015,regular,very popular,lean
+valor,ws,2016,brainstorm,popular,scrum
+zsoft,ws,2016,regular,not so popular,scrum
