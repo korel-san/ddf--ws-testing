@@ -1,6 +1,6 @@
 {
-	"name": ".",
-	"title": ".",
+	"name": "ddf--ws-testing",
+	"title": "ddf--ws-testing",
 	"description": "",
 	"version": "0.0.1",
 	"language": {
@@ -122,6 +122,37 @@
 				"primaryKey": [
 					"company",
 					"project"
+				]
+			}
+		},
+		{
+			"path": "ddf--datapoints--meeting_type--popularity--methodology--by--company--project--anno.csv",
+			"name": "ddf--datapoints--meeting_type--popularity--methodology--by--company--project--anno",
+			"schema": {
+				"fields": [
+					{
+						"name": "company"
+					},
+					{
+						"name": "project"
+					},
+					{
+						"name": "anno"
+					},
+					{
+						"name": "meeting_type"
+					},
+					{
+						"name": "popularity"
+					},
+					{
+						"name": "methodology"
+					}
+				],
+				"primaryKey": [
+					"company",
+					"project",
+					"anno"
 				]
 			}
 		},

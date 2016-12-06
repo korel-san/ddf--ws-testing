@@ -13,3 +13,6 @@ full_name_changed,string,,new value and change concept
 project,entity_domain,,
 domain,string,,
 additional_column,string,,new row and column
+meeting_type,string,,
+popularity,string,,
+methodology,string,,
