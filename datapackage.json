@@ -126,8 +126,8 @@
 			}
 		},
 		{
-			"path": "ddf--datapoints--meeting_type--popularity--methodology--by--company--project--anno.csv",
-			"name": "ddf--datapoints--meeting_type--popularity--methodology--by--company--project--anno",
+			"path": "ddf--datapoints--meeting_style--popular_appeal--methodology--by--company--project--anno.csv",
+			"name": "ddf--datapoints--meeting_style--popular_appeal--methodology--by--company--project--anno",
 			"schema": {
 				"fields": [
 					{
@@ -140,10 +140,10 @@
 						"name": "anno"
 					},
 					{
-						"name": "meeting_type"
+						"name": "meeting_style"
 					},
 					{
-						"name": "popularity"
+						"name": "popular_appeal"
 					},
 					{
 						"name": "methodology"
